@@ -39,7 +39,7 @@ async fn execute_task(task_name: &str, task_id: usize, robot_name: &str) -> Stri
 // idle time due to waiting for ratelimiters
 //
 // it is possible to compute the IDEAL ordering of tasks, but it's a NP hard problem you'd
-// typically never implement a solution for in the real world, especially whena a non ideal but
+// typically never implement a solution for in the real world, especially when a non ideal but
 // optimized implementation could get pretty close
 
 // idiomatic use automatic scheduling, ie, i don't manually manage the ordering of tasks
